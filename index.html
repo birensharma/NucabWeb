@@ -33,36 +33,18 @@
 table, th, td {
     border: 1px solid black;
 	}
+.bar {
+   
+    border-radius: 15px;
+    border: 3px solid black;
+    background-color: purple;
+    text-font-family: Corbert Condensed Italic;
+	font-size: 40px;
+	color: White;
+}
 
 </style>
-<body>
 
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-   <a href="#"><img src="image/home.png" alt="home" height="20" width="20"></img>Home</a>
-    <a href="#"><img src="image/profile.jpg" alt="profile" height="20" width="20">My Profile</a>
-    <a href="#">My Subscription</a>
-	<a href="#">My Wallet</a>
-	<a href="#">Subscribe Now</a>
-	<a href="#">Connect-Admin</a>
-	<a href="#">setting</a>
-	<a href="#">Delete Account</a>
-</div>
-
-
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Options</span>
-
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-     
-</body>
 
   <br>
 
@@ -70,10 +52,16 @@ function closeNav() {
 <table style="height:515px" width="350px" align="center">
   <tr background="image/bg.jpg" height="20" width="25%" >
     <th>
-  <input type="text" name="firstname" placeholder="Your 10-digit Mobile Number"  size="24"><br>
-  <input class="smallbutton" type="button"  value="Resend Code"><br><br>
+<b>Username:</b>
+  <input type="text" name="firstname" placeholder="User name"  size="24"><br><br>
+<b>Password:</b>
+  <input type="password" name="firstname" placeholder="Password"  size="24"><br><br>
  
- <a href="2.html"> <input class="largebutton" type="button" value="Continue"></a>
+ <a href="4.html"> <input class="largebutton" type="button" value="Login"></a><br><br>
+ 
+<a href="1.html">Click here</a> to Sign up <br><br>
+ 
+ Forgotten your password?<br>Please <a href="#">click here</a>
  </th>
   </tr>
 </table>

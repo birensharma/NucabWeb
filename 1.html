@@ -7,8 +7,18 @@
 <link rel = "stylesheet"
    type = "text/css"
    href = "css/sb.css" />
-<style>
 
+<style >
+
+ <link rel="stylesheet" href="css/sb.css">
+.smallbutton {
+    color: purple;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
 
 .largebutton {
     background-color: purple;
@@ -19,6 +29,7 @@
     display: inline-block;
     font-size: 15px;
 }
+
 table, th, td {
     border: 1px solid black;
 	}
@@ -33,13 +44,12 @@ table, th, td {
 }
 
 </style>
-
-<body>
+<body >
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-   <a href="#">Home</a>
-    <a href="#">My Profile</a>
+   <a href="#"><img src="image/home.png" alt="home" height="20" width="20"></img>Home</a>
+    <a href="#"><img src="image/profile.jpg" alt="profile" height="20" width="20">My Profile</a>
     <a href="#">My Subscription</a>
 	<a href="#">My Wallet</a>
 	<a href="#">Subscribe Now</a>
@@ -49,10 +59,7 @@ table, th, td {
 </div>
 
 
-<div class="bar">
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Options</span>
-<div align="middle">Dairy Milk</div>
-</div>
 
 <script>
 function openNav() {
@@ -65,26 +72,21 @@ function closeNav() {
 </script>
      
 </body>
- <form>
- <table style="height:515px" width="350px" align="center">
+
+  <br>
+
+<form>
+<table style="height:515px" width="350px" align="center">
   <tr background="image/bg.jpg" height="20" width="25%" >
     <th>
-Choose Delivery Mode
- Number of Days:<br><br>
-<center><input type="radio" name="A" value="Delivery">Doorbell Delivery<br>
-<input type="radio" name="A" value="Delivery">Doorstep Delivery<br>
-<input type="radio" name="A" value="Delivery">Hand Delivery<br><br>
+  <input type="text" name="firstname" placeholder="Your 10-digit Mobile Number"  size="24"><br>
+  <input class="smallbutton" type="button"  value="Resend Code"><br><br>
  
-  
- Add Comment:<br>
- <textarea rows="4" cols="30" placeholder="Put your comments here"></textarea><br>
- 
-  <a href="6.html"><input class="largebutton" type="submit" value="Submit"></a><br>
-  <a href="5.html">Back</a>
-</th>
+ <a href="2.html"> <input class="largebutton" type="button" value="Continue"></a>
+ </th>
   </tr>
-</table> 
-  </form>
+</table>
+</form> 
 
 </body>
 </html> 
