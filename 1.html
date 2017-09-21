@@ -4,19 +4,29 @@
 <title>My Project</title>
 </head>
 <link rel="stylesheet" href="css/sb.css">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+	font-family: "Lato", sans-serif;
+}
 
-<body bgcolor="aqua">
-<link rel = "stylesheet"
-   type = "text/css"
-   href = "css/sb.css" />
+.bg {
+    /* The image used */
+    background-image: url("image/milk.jpg");
 
-<style >
+    /* Full height */
+    height: 100%; 
 
- <link rel="stylesheet" href="css/sb.css">
-
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 </style>
-
+<body>
+<div class="bg">
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -31,9 +41,9 @@
 </div>
 
 
-<div class="bar">
+<div id="bar">
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-<div align="middle">Dairy Milk</div>
+<span >Dairy Milk</span>
 </div>
 
 <script>
@@ -60,6 +70,7 @@ function closeNav() {
   </tr>
 </table>
 </form> 
-
+</div>
 </body>
+
 </html> 

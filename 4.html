@@ -3,9 +3,29 @@
 <head><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>My Project</title>
 </head>
-<body bgcolor="aqua">
+<body>
 <link rel = "stylesheet"  type = "text/css"  href = "css/sb.css" />
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+	font-family: "Lato", sans-serif;
+}
 
+.bg {
+    /* The image used */
+    background-image: url("image/milk.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+</style>
 <body>
 
 <div id="mySidenav" class="sidenav">
@@ -20,10 +40,11 @@
 	<a href="#">Delete Account</a>
 </div>
 
+<div class="bg">
 
-<div class="bar">
+<div id="bar">
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-<div align="middle">Dairy Milk</div>
+<span>Dairy Milk</span>
 </div>
 
 <script>
@@ -96,6 +117,6 @@ Postal Address:<br>
   </tr>
 </table>
 </form> 
-
+</div>
 </body>
 </html> 
