@@ -71,5 +71,9 @@ table, th, td {
 	color: White;
 }
 
-
+#bar #name{
+    position:relative;
+	left:40%;
+    
+}
 
