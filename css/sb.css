@@ -76,4 +76,11 @@ table, th, td {
 	left:35%;
     
 }
-
+ #fname{
+   
+    padding: 5px 1px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid purple;
+}
