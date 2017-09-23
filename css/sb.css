@@ -91,4 +91,14 @@ table, th, td {
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid purple;
+	text-transform: capitalize;
+}
+#ename{
+   
+    padding: 5px 1px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid purple;
+	
 }
