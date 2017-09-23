@@ -51,13 +51,21 @@ body {
 }
 
 .largebutton {
-    background-color: purple;
-    color: white;
-    padding: 7px 40px;
+	
+    border: none;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.1s;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    padding: 7px 40px;
+    display: inline-block;
+   
 }
 table, th, td {
     border: 1px solid black;
