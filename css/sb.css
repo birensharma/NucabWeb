@@ -156,6 +156,7 @@ input[type=date] {
     border-radius: 5px;
    
 }
+
 input[type=text]:focus {
     background-color: #C0C0C0;
 	}
@@ -165,3 +166,12 @@ input[type=date]:focus {
 input[type=number]:focus {
     background-color: #C0C0C0;
 }
+textarea {
+    color: Black;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+   
+}
+textarea:focus {
+    background-color: #C0C0C0;
