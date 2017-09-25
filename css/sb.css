@@ -108,3 +108,21 @@ table, th, td {
 	
 	
 }
+.logout{
+	border-radius: 8px;
+	border: 2px  black;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.1s;
+    cursor: pointer;
+    background-color: #DA70D6;
+    color: white;
+    padding: 4px 8px;
+    display: inline-block;
+	 position:relative;
+	left:75.5%;
+}
