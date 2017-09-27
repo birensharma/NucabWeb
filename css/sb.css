@@ -51,7 +51,7 @@ body {
 }
 
 .largebutton {
-	
+	border-radius:10px;
     border: none;
     text-align: center;
     text-decoration: none;
@@ -68,7 +68,8 @@ body {
    
 }
 table, th, td {
-    border: 1px solid black;
+    border: none;
+	border-radius: 10px;
 	}
 #bar {
     
@@ -92,6 +93,15 @@ table, th, td {
     border: none;
     border-bottom: 2px solid purple;
 	text-transform: capitalize;
+}
+#uname{
+   
+    padding: 5px 1px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid purple;
+	
 }
 #ename{
    
@@ -157,21 +167,4 @@ input[type=date] {
    
 }
 
-input[type=text]:focus {
-    background-color: #C0C0C0;
-	}
-input[type=date]:focus {
-    background-color: #C0C0C0;
-}	
-input[type=number]:focus {
-    background-color: #C0C0C0;
-}
-textarea {
-    color: Black;
-    margin: 8px 0;
-    border: none;
-    border-radius: 10px;
-   
-}
-textarea:focus {
-    background-color: #C0C0C0;
+
