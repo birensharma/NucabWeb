@@ -167,4 +167,9 @@ input[type=date] {
    
 }
 
-
+.terms{
+    
+    text-font-family: Corbert Condensed Italic;
+	font-size:10px;
+	color: black;
+}
