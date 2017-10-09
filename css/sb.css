@@ -51,7 +51,7 @@ body {
 }
 
 .largebutton {
-	border-radius: 10px;
+	border-radius:10px;
     border: none;
     text-align: center;
     text-decoration: none;
@@ -68,7 +68,8 @@ body {
    
 }
 table, th, td {
-    border: 1px solid black;
+    border: none;
+	border-radius: 10px;
 	}
 #bar {
     
@@ -92,6 +93,15 @@ table, th, td {
     border: none;
     border-bottom: 2px solid purple;
 	text-transform: capitalize;
+}
+#uname{
+   
+    padding: 5px 1px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid purple;
+	
 }
 #ename{
    
@@ -126,6 +136,7 @@ table, th, td {
 	 position:relative;
 	left:75.5%;
 }
+
 input[type=text] {
    
     background-color:;
@@ -155,7 +166,10 @@ input[type=date] {
     border-radius: 5px;
    
 }
-table, th, td {
-    border: none;
-	border-radius: 10px;
-	}
+
+.terms{
+    
+    text-font-family: Corbert Condensed Italic;
+	font-size:10px;
+	color: black;
+}
