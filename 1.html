@@ -1,82 +1,200 @@
- <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+<title>Home</title>
+<link rel="icon" href="images/logo.png">
+		<meta charset="utf-8">
+		<meta name = "format-detection" content = "telephone=no" />
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" href="booking/css/booking.css">
+		<link rel="stylesheet" href="css/camera.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.2.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.mobilemenu.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/camera.js"></script>
+		<!--[if (gt IE 9)|!(IE)]><!-->
+		<script src="js/jquery.mobile.customized.min.js"></script>
+		<!--<![endif]-->
+		<script src="booking/js/booking.js"></script>
+		<script>
+			$(document).ready(function(){
+				jQuery('#camera_wrap').camera({
+					loader: false,
+					pagination: false ,
+					minHeight: '444',
+					thumbnails: false,
+					height: '28.28125%',
+					caption: true,
+					navigation: true,
+					fx: 'mosaic'
+				});
+				$().UItoTop({ easingType: 'easeOutQuart' });
+			});
+		</script>
+		
+	</head>
+	<body class="page1" id="top">
+		<div class="main">
 
-<title>Dairy Milk </title>
-<link rel="icon" href="image/title.png">
-</head>
-<link rel="stylesheet" href="css/sb.css">
-<style>
-body, html {
-    height: 100%;
-    margin: 0;
-	font-family: "Lato", sans-serif;
-}
+			<header>
+				<div class="menu_block ">
+					<div class="container_12">
+						<div class="grid_12">
+							<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+							        <ul class="sf-menu">
+									<li class="current"><a href="1.html">Home</a></li>
+									<li><a href="2.html">About</a></li>
+									<li><a href="3.html">Cabs</a></li>
+									<li><a href="4.html">Contacts</a></li>
+									<li><a href="#form972990390">Book Now</a></li>
+							        <li><a href="index.html">Log Out</a></li>
+								</ul>
+							</nav>
+							<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="container_12">
+					<div class="grid_12">
+						<h1>
+							<a href="1.html">
+								<img src="images/logo.png" alt="Your Happy Family">
+							</a>
+						</h1>
+						
+					</div>
+				</div>
+				<div class="clear"></div>
+			</header>
+			<div class="slider_wrapper ">
+				<div id="camera_wrap" class="">
+					<div data-src="images/slide.png" ></div>
+					<div data-src="images/slide1.jpg" ></div>
+					<div data-src="images/slide2.bmp"></div>
+				</div>
+			</div>
+			<div class="container_12">
+				<div class="grid_4">
+					<div class="banner">
+						<div class="maxheight">
+							<div class="banner_title">
+								<img src="images/icon1.png" alt="">
+								<div class="extra_wrapper">Fast&amp;
+									<div class="color1">Safe</div>
+								</div>
+							</div>
+							Your safety comes first.Verified drivers, an emergency alert button, and live ride tracking are some of the features that we have in place to ensure you a safe travel experience. 
+							<a href="#" class="fa fa-share-square"></a>
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="banner">
+						<div class="maxheight">
+							<div class="banner_title">
+								<img src="images/icon2.png" alt="">
+		<div class="extra_wrapper">Best
+		<div class="color1">Prices</div>
+								</div>
+							</div>
+							We always compare local cab company prices, so you get the best price and that price is fixed.
+							<a href="#" class="fa fa-share-square"></a>
+						</div>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="banner">
+						<div class="maxheight">
+							<div class="banner_title">
+								<img src="images/icon3.png" alt="">
+								<div class="extra_wrapper">
+                                                          24/7 Customer 
+									<div class="color1">Support</div>
+								</div>
+							</div>
+							A dedicated 24x7 customer
+                            support team always at your
+                            service to help solve any problem
+							<a href="#" class="fa fa-share-square"></a>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="c_phone">
+				<div class="container_12">
+					<div class="grid_12">
+						<div class="fa fa-phone"></div>+91 9929841024
+						<span>ORDER NOW!</span>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
 
-.bg {
-    /* The image used */
-    background-image: url("image/milkbg.jpeg");
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-</style>
-<body>
-<div class="bg">
-
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-   <a href="index.html"><ul class="w3-ul"><li class="w3-xlarge"><i class="fa fa-home"></i> Home</li></ul></a>
-    <a href="#"><ul class="w3-ul"><li class="w3-xlarge"><i class="material-icons w3-xlarge">person</i> Profile</li></ul></a>
-    <a href="#">My Subscription</a>
-	<a href="#">My Wallet</a>
-	<a href="#">Subscribe Now</a>
-	<a href="#">Connect-Admin</a>
-	<a href="#">Setting</a>
-	<a href="#">Delete Account</a>
-</div>
-
-
-<div id="bar">
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-<span id="name">Dairy Milk</span>
-</div>
-
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
+			<div class="content"><div class="ic">container Biren</div>
+				<div class="container_12">
+					<div class="grid_6">
+						<h3>Booking Form</h3>
+						<form id="book">
+						                                                                                        <a name="form972990390" id="formAnchor972990390"></a>
+<script type="text/javascript" src="https://fs27.formsite.com/include/form/embedManager.js?972990390">                                                      </script>
+<script type="text/javascript">
+           EmbedManager.embed({
+	                                                                                                             key: "https://fs27.formsite.com/res/showFormEmbed?EParam=m%2FOmK8apOTClBdq3cdMj2mrYe2Y6sJfY&972990390",
+	width: "100%",
+	mobileResponsive: true
+                                                                                                                                                                                                                                                                          });
 </script>
-     
 
 
-<form>
-<table style="height:515px" width="350px" align="center">
-  <tr class="bgbox" height="20" width="25%" >
-    <th>
-  <input type="text" name="firstname" placeholder="Your 10-digit Mobile Number" id="fname" size="24"><br>
-  <input class="smallbutton" type="button"  value="Resend Code"><br><br>
- 
- <a href="2.html"> <input class="largebutton" type="button"  value="Continue"></a>
- </th>
-  </tr>
-</table>
-</form> 
-</div>
-</body>
+</form>
+					</div>
+<div class="grid_6 prefix_1">
+						<a href="index-2.html" class="type"><img src="images/page1_img1.png" alt=""><span class="type_caption">Economy</span></a>
+						<a href="index-2.html" class="type"><img src="images/page1_img3.jpg" alt=""><span class="type_caption">Standard</span></a>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
 
-</html> 
+		<footer>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="f_phone"><span>Call Us:</span> +91 9929841024</div>
+					<div class="socials">
+						<a href="https://twitter.com/Nucabservice" class="fa fa-twitter"></a>
+<a href="https://www.facebook.com/Niitcabservice" class="fa fa-facebook"></a>
+<a href="https://plus.google.com/113771031863699257814" class="fa fa-google-plus"></a>
+					</div>
+					<div class="copy">
+						<div class="st1">
+						<div class="brand"><span class="color1">NU</span>CAB </div>
+						&copy; 2017	| <a href="PP.html">Privacy Policy</a> 
+					
+				</div>
+				<div class="clear"></div>
+			</div>
+		</footer>
+		<script>
+			$(function (){
+				$('#bookingForm').bookingForm({
+					ownerEmail: '#'
+				});
+			})
+			$(function() {
+				$('#bookingForm input, #bookingForm textarea').placeholder();
+			});
+		</script>
+	</body>
+</html>
